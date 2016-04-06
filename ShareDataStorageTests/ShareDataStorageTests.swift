@@ -9,6 +9,7 @@
 import XCTest
 @testable import ShareDataStorage
 
+/*
 class ShareDataStorageTests: XCTestCase {
     
     override func setUp() {
@@ -34,3 +35,4 @@ class ShareDataStorageTests: XCTestCase {
     }
     
 }
+*/

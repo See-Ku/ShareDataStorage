@@ -7,12 +7,36 @@
 //
 
 import UIKit
+import SK4Toolkit
+
+let g_config = GlobalConfig()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
 
+	override init() {
+		super.init()
+
+		// 設定を読み込み
+		g_config.setup()
+	}
+
+	func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+
+		// ファイルをドキュメントにコピー
+		if let src = url.path {
+			let fn = src.nsString.lastPathComponent
+			let dst = sk4GetDocumentDirectory(fn)
+			sk4CopyFile(src: src, dst: dst)
+		}
+
+		// ファイルを受信した
+		AppEvent.UpdateData.postNotify()
+
+		return true
+	}
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		// Override point for customization after application launch.
@@ -41,6 +65,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
 
-
 }
 
+// eof
