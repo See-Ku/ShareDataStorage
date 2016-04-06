@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8709527B1CB4928A005846D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709527A1CB4928A005846D7 /* AppDelegate.swift */; };
+		8709527D1CB4928A005846D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709527C1CB4928A005846D7 /* ViewController.swift */; };
+		870952801CB4928A005846D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8709527E1CB4928A005846D7 /* Main.storyboard */; };
+		870952821CB4928A005846D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870952811CB4928A005846D7 /* Assets.xcassets */; };
+		870952851CB4928A005846D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870952831CB4928A005846D7 /* LaunchScreen.storyboard */; };
+		870952901CB4928A005846D7 /* ShareDataStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709528F1CB4928A005846D7 /* ShareDataStorageTests.swift */; };
+		8709529B1CB4928B005846D7 /* ShareDataStorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709529A1CB4928B005846D7 /* ShareDataStorageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8709528C1CB4928A005846D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8709526F1CB4928A005846D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870952761CB4928A005846D7;
+			remoteInfo = ShareDataStorage;
+		};
+		870952971CB4928A005846D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8709526F1CB4928A005846D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870952761CB4928A005846D7;
+			remoteInfo = ShareDataStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		870952771CB4928A005846D7 /* ShareDataStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareDataStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8709527A1CB4928A005846D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8709527C1CB4928A005846D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8709527F1CB4928A005846D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		870952811CB4928A005846D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		870952841CB4928A005846D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		870952861CB4928A005846D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8709528B1CB4928A005846D7 /* ShareDataStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareDataStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8709528F1CB4928A005846D7 /* ShareDataStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataStorageTests.swift; sourceTree = "<group>"; };
+		870952911CB4928A005846D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870952961CB4928A005846D7 /* ShareDataStorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareDataStorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8709529A1CB4928B005846D7 /* ShareDataStorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataStorageUITests.swift; sourceTree = "<group>"; };
+		8709529C1CB4928B005846D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870952741CB4928A005846D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870952881CB4928A005846D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870952931CB4928A005846D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8709526E1CB4928A005846D7 = {
+			isa = PBXGroup;
+			children = (
+				870952791CB4928A005846D7 /* ShareDataStorage */,
+				8709528E1CB4928A005846D7 /* ShareDataStorageTests */,
+				870952991CB4928A005846D7 /* ShareDataStorageUITests */,
+				870952781CB4928A005846D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		870952781CB4928A005846D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870952771CB4928A005846D7 /* ShareDataStorage.app */,
+				8709528B1CB4928A005846D7 /* ShareDataStorageTests.xctest */,
+				870952961CB4928A005846D7 /* ShareDataStorageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870952791CB4928A005846D7 /* ShareDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8709527A1CB4928A005846D7 /* AppDelegate.swift */,
+				8709527C1CB4928A005846D7 /* ViewController.swift */,
+				8709527E1CB4928A005846D7 /* Main.storyboard */,
+				870952811CB4928A005846D7 /* Assets.xcassets */,
+				870952831CB4928A005846D7 /* LaunchScreen.storyboard */,
+				870952861CB4928A005846D7 /* Info.plist */,
+			);
+			path = ShareDataStorage;
+			sourceTree = "<group>";
+		};
+		8709528E1CB4928A005846D7 /* ShareDataStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				8709528F1CB4928A005846D7 /* ShareDataStorageTests.swift */,
+				870952911CB4928A005846D7 /* Info.plist */,
+			);
+			path = ShareDataStorageTests;
+			sourceTree = "<group>";
+		};
+		870952991CB4928A005846D7 /* ShareDataStorageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8709529A1CB4928B005846D7 /* ShareDataStorageUITests.swift */,
+				8709529C1CB4928B005846D7 /* Info.plist */,
+			);
+			path = ShareDataStorageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		870952761CB4928A005846D7 /* ShareDataStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8709529F1CB4928B005846D7 /* Build configuration list for PBXNativeTarget "ShareDataStorage" */;
+			buildPhases = (
+				870952731CB4928A005846D7 /* Sources */,
+				870952741CB4928A005846D7 /* Frameworks */,
+				870952751CB4928A005846D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareDataStorage;
+			productName = ShareDataStorage;
+			productReference = 870952771CB4928A005846D7 /* ShareDataStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8709528A1CB4928A005846D7 /* ShareDataStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870952A21CB4928B005846D7 /* Build configuration list for PBXNativeTarget "ShareDataStorageTests" */;
+			buildPhases = (
+				870952871CB4928A005846D7 /* Sources */,
+				870952881CB4928A005846D7 /* Frameworks */,
+				870952891CB4928A005846D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8709528D1CB4928A005846D7 /* PBXTargetDependency */,
+			);
+			name = ShareDataStorageTests;
+			productName = ShareDataStorageTests;
+			productReference = 8709528B1CB4928A005846D7 /* ShareDataStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		870952951CB4928A005846D7 /* ShareDataStorageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870952A51CB4928B005846D7 /* Build configuration list for PBXNativeTarget "ShareDataStorageUITests" */;
+			buildPhases = (
+				870952921CB4928A005846D7 /* Sources */,
+				870952931CB4928A005846D7 /* Frameworks */,
+				870952941CB4928A005846D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870952981CB4928A005846D7 /* PBXTargetDependency */,
+			);
+			name = ShareDataStorageUITests;
+			productName = ShareDataStorageUITests;
+			productReference = 870952961CB4928A005846D7 /* ShareDataStorageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8709526F1CB4928A005846D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AxeRoad;
+				TargetAttributes = {
+					870952761CB4928A005846D7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8709528A1CB4928A005846D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 870952761CB4928A005846D7;
+					};
+					870952951CB4928A005846D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 870952761CB4928A005846D7;
+					};
+				};
+			};
+			buildConfigurationList = 870952721CB4928A005846D7 /* Build configuration list for PBXProject "ShareDataStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8709526E1CB4928A005846D7;
+			productRefGroup = 870952781CB4928A005846D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870952761CB4928A005846D7 /* ShareDataStorage */,
+				8709528A1CB4928A005846D7 /* ShareDataStorageTests */,
+				870952951CB4928A005846D7 /* ShareDataStorageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870952751CB4928A005846D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870952851CB4928A005846D7 /* LaunchScreen.storyboard in Resources */,
+				870952821CB4928A005846D7 /* Assets.xcassets in Resources */,
+				870952801CB4928A005846D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870952891CB4928A005846D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870952941CB4928A005846D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870952731CB4928A005846D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8709527D1CB4928A005846D7 /* ViewController.swift in Sources */,
+				8709527B1CB4928A005846D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870952871CB4928A005846D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870952901CB4928A005846D7 /* ShareDataStorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870952921CB4928A005846D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8709529B1CB4928B005846D7 /* ShareDataStorageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8709528D1CB4928A005846D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870952761CB4928A005846D7 /* ShareDataStorage */;
+			targetProxy = 8709528C1CB4928A005846D7 /* PBXContainerItemProxy */;
+		};
+		870952981CB4928A005846D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870952761CB4928A005846D7 /* ShareDataStorage */;
+			targetProxy = 870952971CB4928A005846D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8709527E1CB4928A005846D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8709527F1CB4928A005846D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		870952831CB4928A005846D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870952841CB4928A005846D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8709529D1CB4928B005846D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8709529E1CB4928B005846D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		870952A01CB4928B005846D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareDataStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.ShareDataStorage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		870952A11CB4928B005846D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareDataStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.ShareDataStorage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		870952A31CB4928B005846D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareDataStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.ShareDataStorageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareDataStorage.app/ShareDataStorage";
+			};
+			name = Debug;
+		};
+		870952A41CB4928B005846D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareDataStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.ShareDataStorageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareDataStorage.app/ShareDataStorage";
+			};
+			name = Release;
+		};
+		870952A61CB4928B005846D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareDataStorageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.ShareDataStorageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareDataStorage;
+			};
+			name = Debug;
+		};
+		870952A71CB4928B005846D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareDataStorageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.ShareDataStorageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareDataStorage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870952721CB4928A005846D7 /* Build configuration list for PBXProject "ShareDataStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8709529D1CB4928B005846D7 /* Debug */,
+				8709529E1CB4928B005846D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8709529F1CB4928B005846D7 /* Build configuration list for PBXNativeTarget "ShareDataStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870952A01CB4928B005846D7 /* Debug */,
+				870952A11CB4928B005846D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		870952A21CB4928B005846D7 /* Build configuration list for PBXNativeTarget "ShareDataStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870952A31CB4928B005846D7 /* Debug */,
+				870952A41CB4928B005846D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		870952A51CB4928B005846D7 /* Build configuration list for PBXNativeTarget "ShareDataStorageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870952A61CB4928B005846D7 /* Debug */,
+				870952A71CB4928B005846D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8709526F1CB4928A005846D7 /* Project object */;
+}
